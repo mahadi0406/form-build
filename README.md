@@ -1,16 +1,17 @@
 
 ## Installation
 
-Install my-project 
+First clone this repository, install the dependencies, and setup your .env file.
 
 ```bash
-  composer update 
+  composer install 
+  cp .env.example .env
   cd my-project
 ```
 
-Then create the database.
+Then create the necessary database.
 
 ```bash
   php artisan migrate
-  php artisan serve
 ```
+    
